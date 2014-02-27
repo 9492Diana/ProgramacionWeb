@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#elId {
+    background-color: pink;
+    display: block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#elBoton {
+    margin-top: 20px;
+}
