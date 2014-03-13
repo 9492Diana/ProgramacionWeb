@@ -1,0 +1,49 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+    
+    #elHeader nav {
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+
+section {
+    padding: 0 5px;
+}
+
+
+#elFooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+    #elFooter a {
+        color: pink;
+    }
+
+
+.noImportante {
+    display: none;
+}
+
+.contImagen {
+    display: inline-block;
+    width: 100%;
+}
+
+.contImagen figure { width: 100%; }
+.contImagen figure img { width: 100%; } 
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 640px) {
+    #elHeader nav { background-color: pink; } 
+    .contImagen { width: 32%; }
+
+}
