@@ -1,0 +1,16 @@
+/* Paralax */
+#bg1 { background: url(../img/trainers.png) 50% 0 no-repeat fixed, url(../img/firstBG.jpg) 50% 0 no-repeat fixed;}
+#bg2 { background: url(../img/secondBG.jpg) 50% 0 no-repeat fixed;}
+#bg3 { background: url(../img/thirdBG.jpg) 50% 0 no-repeat fixed;}
+
+
+.parallaxbg {
+    width: 100%;
+    min-height: 1000px;
+    position: relative;
+}
+
+.hsContent {
+    text-align: center;
+    font-size: 40px; 
+}
