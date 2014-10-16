@@ -1,0 +1,56 @@
+/* Estilos principales */
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* body */
+body {
+	background-color: #AEAEAE;
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+}
+.avatar { width: 30%; }
+.cont { width: 65%; }
+
+.avatar, .cont { display: inline-block; vertical-align: top;}
+figure img {
+	height: auto;
+	width: 100%;
+}
+
+/* Header */
+header {
+	background-color: red;
+}
+	header figure {
+		display: inline-block;
+		width: 35%;
+	}
+
+	header h1 {
+		font-size: 18px;
+	}
+
+	header h2 {
+		font-size: 15px;
+	}
+
+	#headerTitle { display: inline-block; vertical-align: top; }
+/* Nav */
+nav {
+	background-color: pink;
+	text-align: center;
+}
+	nav ul li {
+		display: inline-block;
+	}
+
+article {margin-bottom: 15px;}
+
+/* Media Queries */
+@media (max-width: 450px) {
+	.avatar { width: 100%;margin-bottom: 5px; }
+	.cont { width: 100%; }
+}
